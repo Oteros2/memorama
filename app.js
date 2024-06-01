@@ -8,7 +8,7 @@ let parejasEncontradas = 0;
 let contadorNivel = document.getElementById("nivel");
 let intentos = document.getElementById("intentos");
 let contadorIntentos = 0;
-let nivel = 5;
+let nivel = 1;
 const maxNivel = 5;
 
 const nivelCartas = {
