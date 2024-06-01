@@ -68,7 +68,6 @@ body{
     background-color: rgba(202, 220, 235, 0.395);
     border: 1px solid black;
     width:20vw;
-    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +79,6 @@ body{
     background-color: rgba(202, 220, 235, 0.395);
     border: 1px solid black;
     width:40vw;
-    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +90,6 @@ body{
     background-color: rgba(202, 220, 235, 0.395);
     border: 1px solid black;
     width:40vw;
-    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,24 +100,24 @@ body{
     background-color: rgba(202, 220, 235, 0.395);
     border: 1px solid black;
     width:40vw;
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .contenedor5{
     background-color: rgba(202, 220, 235, 0.395);
     border: 1px solid black;
     width: 50vw;
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 #inicio {
@@ -153,6 +150,35 @@ body{
     cursor: not-allowed;
 }
 
+#reset {
+    background-color: #af4c63; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#reset:hover {
+    background-color: #a4314c;
+    transform: scale(1.05);
+}
+
+#reset:active {
+    background-color: #a32542;
+    transform: scale(0.95);
+}
+
+#reset:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
 #titulo{
     display: flex;
     align-items: center;
@@ -178,41 +204,39 @@ body{
     border-bottom-color: #af4c63; 
 }
 
+
+
+
 @media (max-width:480px){
 
     .tarjeta-visible{
-        width: calc(100vw/7);
-        height: calc(100vh/11);
+        width: calc(100vw/5);
+        height: calc(100vh/9);
     }
     
     
     .tarjeta-oculta{
-        width: calc(100vw/7);
-        height: calc(100vh/11);
+        width: calc(100vw/5);
+        height: calc(100vh/9);
     }
 
     .contenedor1{
-        width:50vw;
-        height: 30vh;
+        width:60vw;
             }
     
     .contenedor2{
         width:80vw;
-        height: 30vh;
     }
     
     .contenedor3{
         width:85vw;
-        height: 60vh;
     }
     .contenedor4{
         width:85vw;
-        height: 60vh;
     }
     
     .contenedor5{
         width: 85vw;
-        height: 60vh;
     }
 
 }

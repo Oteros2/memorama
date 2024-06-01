@@ -100,7 +100,7 @@ function comparar() {
         segunda.classList.add("tarjeta-oculta");
         segunda.style.backgroundImage = "url(images/interrogacion.jpg)";
     }
-
+    
     seleccion = [];
 }
 
